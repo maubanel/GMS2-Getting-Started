@@ -98,8 +98,7 @@ You now need to connect this new repository to the one you created in the second
 
 Now type `git push -u origin main` to push your work to **GitHub**.  The project is now set up and you will be able to use **GitHub** desktop without command line for the rest of the project.
 
-![alt_text](images/PushToGitHub.png)
-![save, quit, commit and push to github](images/GitHub.png)
+![push to github](images/PushToGitHub.png)
 
 | `gms2.setting-up`\|`THE END`| 
 | :--- |
