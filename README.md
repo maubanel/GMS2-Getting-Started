@@ -25,7 +25,7 @@ Includes:
 ## Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
-<kbd></kbd> &nbsp;&nbsp; [Positioning Text](https://github.com/maubanel/GMS2-Positioning-Text#user-content-positiong-text) <br>
+<kbd></kbd> &nbsp;&nbsp; [Positioning Text](https://github.com/maubanel/GMS2-Positioning-Text#user-content-gms2-positioning-text) <br>
 
 ## Programming Concepts
 The following programming concepts are raised in FirstLook.yyp.
