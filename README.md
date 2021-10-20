@@ -31,6 +31,8 @@ Includes:
 <kbd></kbd> &nbsp;&nbsp; [Data Types](https://github.com/maubanel/GMS2-Data-Types#user-content-gms2-data-types) <br>
 <kbd></kbd> &nbsp;&nbsp; [If Statements](https://github.com/maubanel/GMS2-If-Statements#user-content-gms2-if-statements) <br>
 <kbd></kbd> &nbsp;&nbsp; [Loops](https://github.com/maubanel/GMS2-Loops#user-content-gms2-loops) <br>
+<kbd></kbd> &nbsp;&nbsp; [Screen Positioning](https://github.com/maubanel/GMS2-Screen-Positioning#user-content-gms2-screen-positioning) <br>
+
 
 ## Programming Concepts
 The following programming concepts are raised in FirstLook.yyp.
