@@ -4,10 +4,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. This walk through looks at [variables](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Variables_And_Variable_Scope.htm) in GMS2. Variables are used to store information that we can use later on.
-
-* Tested on GameMake Studio2.3.5.589
-* An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
+This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. This walk through looks various concepts.
 
 <br>
 
@@ -16,7 +13,7 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-gml/README.md#user-content-new-gml-project) and create a project called `Space Rocks`.
+Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-gml/README.md#user-content-new-gml-project) and create a project called `Getting Started`.
 
 ![start gamemaker studio 2 project called Space Rocks](images/SpaceRocksDirectory.png)
 
