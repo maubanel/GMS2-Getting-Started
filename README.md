@@ -18,7 +18,14 @@ Includes:
 * Moving NPC
 * Moving Player
 
+* Tested on GameMake Studio2.3.5.589
+* [GitHub Account](https://github.com) (free)
+* [GitHub Desktop](https://desktop.github.com)
 
+## Table of Contents
+
+<kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
+<kbd></kbd> &nbsp;&nbsp; [Positioning Text](https://github.com/maubanel/GMS2-Positioning-Text#user-content-positiong-text) <br>
 
 ## Programming Concepts
 The following programming concepts are raised in FirstLook.yyp.
