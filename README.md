@@ -27,7 +27,7 @@ Includes:
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
 <kbd></kbd> &nbsp;&nbsp; [Positioning Text](https://github.com/maubanel/GMS2-Positioning-Text#user-content-gms2-positioning-text) <br>
 <kbd></kbd> &nbsp;&nbsp; [Data Types](https://github.com/maubanel/GMS2-Data-Types/blob/main/README.md#user-content-gms2-data-types) <br>
-<kbd></kbd> &nbsp;&nbsp; [Data Types](https://github.com/maubanel/GMS2-Variables/README.md#user-content-gms2-data-types) <br>
+<kbd></kbd> &nbsp;&nbsp; [Variables](https://github.com/maubanel/GMS2-Variables#user-content-gms2-data-types) <br>
 
 
 ## Programming Concepts
