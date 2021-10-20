@@ -33,6 +33,8 @@ Includes:
 <kbd></kbd> &nbsp;&nbsp; [Loops](https://github.com/maubanel/GMS2-Loops#user-content-gms2-loops) <br>
 <kbd></kbd> &nbsp;&nbsp; [Screen Positioning](https://github.com/maubanel/GMS2-Screen-Positioning#user-content-gms2-screen-positioning) <br>
 <kbd></kbd> &nbsp;&nbsp; [Errors](https://github.com/maubanel/GMS2-Errors#user-content-gms2-errors) <br>
+<kbd></kbd> &nbsp;&nbsp; [NPC Movement](https://github.com/maubanel/GMS2-NPC-Movement#user-content-gms2-npc-movement) <br>
+
 
 
 ## Programming Concepts
