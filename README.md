@@ -30,7 +30,7 @@ Includes:
 <kbd></kbd> &nbsp;&nbsp; [Variables](https://github.com/maubanel/GMS2-Variables#user-content-gms2-variables) <br>
 <kbd></kbd> &nbsp;&nbsp; [Data Types](https://github.com/maubanel/GMS2-Data-Types#user-content-gms2-data-types) <br>
 <kbd></kbd> &nbsp;&nbsp; [If Statements](https://github.com/maubanel/GMS2-If-Statements#user-content-gms2-if-statements) <br>
-
+<kbd></kbd> &nbsp;&nbsp; [Loops](https://github.com/maubanel/GMS2-Loops#user-content-gms2-if-statements) <br>
 
 ## Programming Concepts
 The following programming concepts are raised in FirstLook.yyp.
