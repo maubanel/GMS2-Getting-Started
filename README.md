@@ -1,134 +1,121 @@
-# GMS2 UE4 Top Down Shooter
+# GameMaker Studio 2 Getting Started
+
+## Introduction
+This tutorial is intended for those wanting an introduction to __GameMaker Studio 2__ using their scripting language __GML__. This assumes no prior knowledge of the software or scripting. Unlike other tutorials, I have left the scripting in images so you can't cut and paste the text. When learning to script for the first time I think it is very important to type it in yourself and get used to making mistakes and develop an understanding of what you are typing does to the game engine.
+  
+
+This is a primer before moving forward and creating your first game.  It is intended to demonstrate some fundamental concepts in the __IDE__, __GML__, and some very basic __game algorithms__.  
+
+Includes:
+
+* Variables
+* 3 Data types
+* Functions
+* If statements
+* Loops
+* Positioning objects in rooms
+* Errors
+* Moving NPC
+* Moving Player
 
 
-<!-- OVERVIEW -->
-This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. 
-
-This tutorial is a a simplified version of the arcade game **1942**.  It is NOT a complete game but a scaffolding that allows you to complete the game on your own.  It uses GML programming language.  It would be useful if you have completed a previous tutorial such as [GMS2-First-Look](https://github.com/maubanel/GMS2-First_Look), [YoYo Games Space Rocks GML](https://marketplace.yoyogames.com/assets/7423/space-rocks-gml) and [GMS2-Space-Rocks-Extended](https://github.com/maubanel/GMS2-Space-Rocks-Extended/blob/master/README.md) prior to starting the top down shooter.
-
-All artwork needed for the game is supplied in this tutorial.  There is a folder called datafiles/TutorialResources/Sprites and a folder called datafiles/TutorialResources/Sounds that include all the assets that you need (except for one song that the tutorial asks you to find for yourself).
-
-In this walk through we will be working on:
-
-* Importing ship animation
-* Moving ship with keyboard
-* Moving ship with gamepad
-* Scrolling water background
-* Scrolling islands background
-* Setting up enemy parent
-* Regular, shooting and targeting enemy planes
-* Player health
-* Player damage
-* Ghost mode
-* Audio
-* Front End
-
-* Tested on GameMake Studio2.3.5.589
-* [GitHub Account](https://github.com) (free)
-* [GitHub Desktop](https://desktop.github.com)
-
-<br>
-
-
-<!-- TOC -->
-## Table of Contents
-
-<kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
-<kbd></kbd> &nbsp;&nbsp; [Getting Ship in Room](ship-room/README.md#user-content-getting-ship-in-room) <br>
-
-
-<!-- LICENSE -->
-## License
-Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
-
-## Keyboard Controls
-* Left, Right, Up and Down Arrow moves player in 4 directions
-* Space bar shoots and starts game
-
-## Gamepad Controls
-* Left analog stick moves player
-* Right trigger shoots
-* Start button begins the game
 
 ## Programming Concepts
+The following programming concepts are raised in FirstLook.yyp.
 
-The following programming concepts are raised in the Top Down Shooter walk through. These follow concepts introduced in [GMS2-First-Look](https://github.com/maubanel/GMS2-First_Look) and [GMS2-Space-Rocks-Extended](https://github.com/maubanel/GMS2-Space-Rocks-Extended/blob/master/README.md). Here are the new GameMaker programming concepts that are introduced in this third walk through.
 
-| Programming Concept                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Example                                                                                                                                                                                                                                             |
-|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dynamic arrays                                    | A dynamic array allows us to store a list of objects as opposed to a single value.  The array can grow and shrink at run-time and memory will ge allocated by the engine.  There are one dimensional and two dimensional arrays available.  An array starts with a variable name such as `cards` and is followed by square brackets `cards[0]` with the index to the array entry as an integer.  So `[0]` would be the first card and `[51]` (52nd card) would be the last in a standard deck of cards. The other advantages of arrays is that they can be altered in scripts without being returned one at a time.  This can allow for more complex scripts that make multiple adjustments and acts as a pass by reference for the array.  More information can be found in the [GameMaker Manual](https://docs.yoyogames.com/source/dadiospice/002_reference/001_gml%20language%20overview/401_06_arrays.html).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | for&#160;(var&#160;i=0;&#160;i<10;&#160;++i)<br>{<br>&#160;&#160;&#160;numbers[i]&#160;=&#160;i&#160;*&#160;10;<br>} |
+| Programming Concept  | Description                                                                                                                                                                                                                                                                                                                                           | Example                                                                                                    |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Constants            | This is a value of a type that never changes                                                                                                                                                                                                                                                                                                          | `vk_up`                                                                                                      |
+| Real Number          | This is a type that represents any whole number  and is a double precision floating point value                                                                                                                                                                                                                                                       | `-25.5`                                                                                                      |
+| String               | This is a type that represents any text and is surrounded by quotation marks                                                                                                                                                                                                                                                                          | `"This is a sentence"`                                                                                       |
+| Boolean              | This is a type that represents either true or false.   GML does not have a boolean type and uses a real number  to represent true and false.  Any real number below 0.5 is false and any  number equal or above is true.                                                                                                                              | `b_is_visible = true`                                                                                        |
+| Variable             | A variable can store either a real number or a string. When the game  runs the variable is replaced with the value that it contains.  You assign a variable using the equal sign `=`.                                                                                                                                                                 | `speed = 20;`                                                                                                |
+| Variable Definitions | This is a way that you can initialize the value of a variable both inside the game object (just under the Physics button) and allows you to give different values inside the room.                                                                                                                                                                    |                                                                                                            |
+| String Concatenation | When adding two strings together "Hello " + "there." it combines (concatenates)  the two strings into a single "Hello there".                                                                                                                                                                                                                         | `"Hello " + "Steve!"`                                                                                        |
+| if statement         | A simple "if" statement takes this form: if (condition) { .. run script between brackets if true ...}.  If the condition within the parentheses is true, the  script right after within the braces runs if the condition is true. Be careful, do NOT put a semi-colon after the parenthesis between the closing parenthesis )  and opening bracket {. | if&#160;(age&#160;>=&#160;18)<br />{<br />&#160;&#160;&#160;draw_text(x,&#160;y,&#160;"adult");<br />}                                                            |
+| else if statement    | An "else if" statement comes after an if() or else if() statement  (they can be chained).  The next else if runs if the previous statement resolves  to false.Be careful, do NOT put a semi-colon after the parenthesis between the  closing parenthesis ) and opening bracket {.                                                                     | if&#160;(age&#160;>=&#160;18)<br />{<br />&#160;&#160;&#160;draw_text&#160;(x,&#160;y,&#160;"adult");<br />}<br />else&#160;if&#160;(age&#160;==&#160;17)<br />{<br />&#160;&#160;&#160;draw_text(x,&#160;y,&#160;"17&#160;year&#160;old");<br />} |
+| else                 | After a chain of if and else if statements, if none of them are true you can  create a final statement that will always run with else.                                                                                                                                                                                                                | if&#160;(age&#160;>=&#160;18)<br />{<br />&#160;&#160;&#160;draw_text(x,&#160;y,&#160;"adult");<br />}<br />else<br />{<br />&#160;&#160;&#160;draw_text(x,&#160;y,&#160;"minor");<br />}                        |
+| == expression        | If the value on either side of the == operator are identical then the result is  true.  If the values are not the same it returns false.                                                                                                                                                                                                              | if&#160;(i&#160;==&#160;j)<br />{<br />&#160;&#160;&#160;draw_text(x,&#160;y,&#160;"i&#160;and&#160;j&#160;are&#160;the&#160;same";<br />}                             |
+| != expression        | If the value on either side of the != (not equal) operator are different then the result is true.  If the values are identical the return is false.                                                                                                                                                                                                   | if&#160;(i&#160;!=&#160;j)<br />{<br />draw_text(x,&#160;y,&#160;"i&#160;and&#160;j&#160;are&#160;different";<br />}                              |
+| > expression         | Returns true if the value on the left is greater than the value on the right. Otherwise returns false.                                                                                                                                                                                                                                                | `if (age > 17)`                                                                                              
+| >= expression        | Returns true if the value on the left is greater or equal to the value on the  right. Otherwise returns false. | `if (age >= 18)`                                                                                                            
+| < expression         | Returns true if the value on the left is less than the value on the right. Otherwise returns false.                                                                                                                                                                                                                                                   | `if (age < 19)`                                                                                                           
+| <= expression        | Returns true if the value on the left is less or equal than the value on the  right.Otherwise returns false.                                                                                                                                                                                                                                          | `if (age <= 18)`                                                                                                           
+| function             | A function is a block of code that performs a function.  It then can return a value.  You may or may not need to pass the function arguments that it  needs to perform its task.  foo = function_name(argument0, argument1...); calls a function, sets the return value to foo and and passes arguments.                                              | `av = average(3,4,5);` note: this function returns the real number of 4 that is stored in the `av` variable. |
+| repeat loop          | Allows you to perform a task multiple times.  `repeat (10)` { enter script here }  will run what is between the brackets 10 times.                                                                                                                                                                                                                    |  margin&#160;=&#160;32;<br />repeat(lives)<br />{<br />draw_sprite(obj_heart,&#160;0,&#160;x,&#160;y);<br />x&#160;+=&#160;margin<br />}                        |
+| for loop             | Allows you to perform a task multiple time.   for (staring_point, end_point, increment or decrement)                                                                                                                                                                                                                                                  | for&#160;(int&#160;i=0;i&#160;<&#160;lives;&#160;++i)<br />{<br />&#160;&#160;&#160;draw_sprite(obj_heart,&#160;0,&#160;i&#160;*&#160;margin,&#160;y);<br />}                          |
+| sprite origin        | This is the x, y position in local space of the sprite that it is drawn from in the room.  It is also the point that the sprite rotates around when rotating                                                                                                                                                                                          | `sprite_set_offset(spr_player, 32, 32)`;                                                                     |
+| errors               |    There are three types or errors that we care about the most in GameMaker.a<br />1. Compile Errors.  This is when you can't compile the script and run the game.  An error message pops up.<br />2. Run Time Errors.  Play the game and an action causes the game to crash, and an error message pops up.<br />3. The last is a logic error where the script is not doing what the author intended.                                                                                                                                                                                                                                                                                                                                                    |                                                                                                            |
+
 
 ## GameMaker Resources
+On the right hand side of the game editor you have a list of all resources that can be added to the game.
 
-On the right hand side of the game editor you have a list of all resources that can be added to the game.  Here are the new GameMaker resources that are introduced in this third walk through.
+| Game Maker Resources | Description                                                                                                                          |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Rooms                | Each level in GameMaker is called a room.  When you create a new project a room called `room0` is provided.                          |
+| Sprites              | This is raster based artwork (pixels) and can be created in GameMaker or any pixel based editing software like Photoshop.            |
+| Objects              | The only object that can interact in the level is a GameMaker Game Object. Objects can bind sprites, run scripts and trigger events. |
 
-| GameMaker Resources | Description                                                                                                                                                                                                                                                                                                                                                 |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Timeline              | Timelines work in a similar way to alarms but are not limited to 12 events.  This is perfect for spawning enemies over the course of a level. This allows us the ability to escalate difficulty by adjusting how many enemies we spawn at what point of time in the level.  In this game, we are on rails (the player does not control the speed they are moving through the level) so the escalation is driven by the spawning of enemies in the timeline.  More information can be foud in the [GameMaker Manual](https://docs.yoyogames.com/source/dadiospice/001_advanced%20use/005_time%20lines.html) as well as [timeline functions and variables](https://docs.yoyogames.com/source/dadiospice/002_reference/timelines/index.html)
+## GameMaker Events
+GameMaker can only run scripts on given events.  The below are the most common event types we use.
 
+| Game Maker Events | Description                                                                                                                                                                                                                                                                                                                 |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Draw              | A Draw event allows you to alter what the object draws on top of, or instead of the sprite.  If you still want to draw the sprite in that event you need to include draw_self().  This draws in world space in the layer that the object occupies in the room.        
+| Draw GUI              | A Draw GUI event allows you to draw to the top leven in screen space to the room.  This will appear on top of every other object in the scene regardless of hte object layer                                                                                                                                                 |
+| Create            | A Create event is run once when the object is first instantiated in the room.  If it is in the room, it is run when the game is played or it is run when the object appears if it is dynamically generated by script.  It is often used to set the assign the default value to variables that will be used in other events. |
+| Step              | A Step event is run every frame based on the frame rate of the game.  The default value is usually 30 frames per second.  We ONLY use this event for scripts that need to be continually updated.  So things like polling for controller input would be put in a Step event.                                                |
+
+## Built in Object Variables
+GameMaker objects all share common built in variables.  Here are the ones that are important to this exercise.
+
+| Built-In Object Variables | Description                                                                                                                                                                                                                       | Example                  |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| x                         | This is the location horizontally in the room along the x axis for the game object. A positive `x` value is to the right and negative `x` value to the left.                                                                      | x&#160;=&#160;200;                 |
+| y                         | This is the location vertically in the room along the y axis for the game object. A positive `y` value is to the bottom and negative `y` value to the top. This is the opposite of how a y axis would be represented in geometry. | y&#160;=&#160;150;                 |
+| image_angle               | The angle of rotation of the sprite. 360 degrees represents an entire rotation. 0 is to the right, 90 is pointing up, 180 is pointing in the other direction and 270 is pointing down.                                            | image_angle&#160;=&#160;90;        |
+| vspeed                    | Vertical component of the speed of the player in pixels per frame.                                                                                                                                                                | vspeed&#160;=&#160;5;              |
+| hspeed                    | Horizontal component of the speed of the player in pixels per frame.                                                                                                                                                              | hspeed&#160;=&#160;5;              |
+| direction                 | This is an angle in degrees of the direction the vehicle is moving in (which could be different than the image_angle)                                                                                                             | direction&#160;=&#160;image_angle;  |
+| speed                     | This is the speed that the object is moving in pixels per frame along the direction axis.                                                                                                                                         | speed&#160;=&#160;7;               |
+| room_height               | This is the width the room in pixels.                                                                                                                                                                                             | y&#160;=&#160;room_height&#160;/&#160;2;      |
+| room_width                | This is the height of the room in pixels.                                                                                                                                                                                         | x&#160;=&#160;room_width&#160;/&#160;2;      |
+
+## GameMaker Constants
+These are non changing variable names that cannot be changed.  They show up in gamemaker as a red font.
+
+| GameMaker Constants | Description                                                                          | Example                                                              |
+|---------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| fa_left             | When drawing text it aligns text to the left hand side of the `x` value given.       | draw_set_halign(fa_left);<br />draw_text(x,y,"Left justified text"); |
+| fa_center           | When drawing text it aligns middle of the text to the center of the `x` value given. | draw_set_halign(fa_center);draw_text(x,y,"Left justified text");     |
+| true                | Is equal to a real number of 1.0 and is logical true.                                | is_jumping = true;                                                   |
+| false               | Is equal to a real number of 0.0 and is logical false.                               | is_jumping = false;                                                  |
+| vk_left             | Left arrow keyboard button                                                           | if (keyboard_check(vk_left)) x = x-5;                                |
+| vk_right            | Right arrow keyboard button                                                          | if (keyboard_check(vk_right)) x = x+5;                               |
+| vk_up               | Up arrow keyboard button                                                             | if (keyboard_check(vk_up)) y = y-5;                                  |
+| vk_down             | Down arrow keyboard button                                                           | if (keyboard_check(vk_down)) y = y-5;                                |
+| c_white             | Draw color of white                                                                  | draw_set_color(c_white);                                             |
+| c_yellow            | Draw color of yellow                                                                 | `draw_set_color(c_yellow);`                                          |
 
 
 ## GameMaker Built in Functions
+These are the functions that GameMaker provides that we used in this exercise.
 
-These are the functions that GameMaker provides that we used in this exercise. Here are the new GameMaker built in functions that are introduced in this third walk through.
+| Built-In Functions                  | Description                                                                                                                                                      | Example                               |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| draw_set_halign(halign)             | Sets text alignment from left, center to right aligned text.                                                                                                     | `draw_set_halign(fa_left);`           |
+| string(real)                        | Casts a real number to a string variable.  Make a number such as `5` become `"5"`.                                                                               | foo = "bee is in mm: " + string(5.5)  |
+| bool(real)                          | Casts a real number to a bool variable. Make a number such as `55` become `true`.                                                                                | foo = bool(55);                       |
+| keyboard_check(key)                 | Returns true or false and takes a key constant character.                                                                                                        | if (keyboard_check(vk_left)) x = x-5; |
+| move_towards_point(x,y,speed)       | Define                                                                                                                                                           | move_towards_point(250,500,5);        |
+| move_wrap(hor,vert,margin)          | Define                                                                                                                                                           | move_wrap(true,true,32);              |
+| draw_text(x,y,string)               | Define                                                                                                                                                           | draw_text(30,50,"You_Win!");          |
+| draw_set_color(color)               | Set color of what you are drawing next in a draw event.                                                                                                          | draw_set_color(c_yellow);             |
+| draw_line(x1,y1,x2,y2)              | Draws a single line with x1, y1 paramters of real numbers representing the room location of the begining of the line.  The x2, y2 represent the end of the line. | draw_line(20,30,25,30);               |
+| draw_rectangle(x1,y1,x2,y2,outline) | Draws a rectangle with the top left and bottom right corner passed.  If the outline is true there is only an outline drawn and if false it is a solid shape.     | draw_rectangle(20,30,25,30,true);     |
+| show_debug_message(string)          | Draws to the console at the bottom of the engine.                                                                                                                |                                       |
 
-| Built In Functions                    | Description&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Example                                                        |
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| audio_sound_pitch(sound,pitch)       | This function allows us to adjust the pitch of the audio from its default state.  You pass it a single instance of the sound to affect an instance value **or** the name of the sound to affect all versions of it being played.  For the `pitch` argument, a value under `1` lowers the pitch and a value above `1` raises the pitch.  A value of `1` plays the pitch at the recorded value.  Use small increments as this makes fairly large changes in the audio and you can easily shift it outside the audible range. Changing the pitch also changes the duration of the audio being played back.     |  <pre>audio_sound_pitch (snd_explosion, choose(.8, .9, 1, 1.1, 1.2));</pre> |    | audio_sound_pitch(snd_explosion, choose(.8, .9, 1, 1.1, 1.2)); |
-| audio_sound_gain(sound,volume,time) | This function allows us to adjust the gain (volume) of the sound over time.  You pass it a single instance of the sound to affect an instance value **or** the name of the sound to affect all versions of it being played. The `volume` argument is the loudness of the sound.  `0` would be completely silent, and `1` would be the original volume of the recording.  The `time` argument allows fading in or fading out thsi sound over time in milliseconds.  So to have the change occur immediately you would pass a `0` for time and it you wanted it over 3 seconds you would pass it a value of `3000` ms.                                      | <pre>audio_sound_gain(snd_explosion, choose(.6, .7, .8, .9, 1), 0));</pre>| | audio_sound_gain(snd_explosion, choose(.6, .7, .8, .9, 1), 0); |
-| event_inherited()                     | Each game object has a single set of events available to it like the `step` or `create` event.  But when you inherit from a parent object you also get those parent objects event scripts.  To call the parents script and add specific children behavior that child object needs to call event inherited.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | <pre>//parent_enemy create event<br>health = 1000;<br>ammo = 10;<br><br>// obj child_enemy create event<br>// gets health and ammo value of parent<br>event_inherited();<br><br>// changes the amount of ammo in the child enemy<br>ammo = 20; </pre>|
-|instance_create_layer(x,y,layer_id,obj) |This function creates a new object on the passed layer and returns the instance it has created.  This way you can use this return value to manipulate the single instance of the variable that is created by dot referencing the instance's variable name. |<pre>bullet = instance_create_layer(100, 200, "Instances", obj_bullet);<br>bullet.direction = image_angle;</pre> |
-|point_direction (x1, y1, x2, y2)|This function converts a vector in room space from cartesian to a polar angle in degrees. You pass it two points and it returns the angle between the points|<pre>point_direction(obj_player.x, obj_player.y, obj_e.x, obj_y.x);</pre>|
-|game_restart()|This function restarts the game from the very beginning.|<pre>if (lives <= 0) game_restart()</pre> |
-|layer_vspeed(layer, speed) | You can use this function to set the vertical speed in pixels per step for the layer passed as a string.|`layer_vspeed("instance", 3);`|
-|draw_healthbar(x1, y1, x2, y2, amount, backcol, mincol, maxcol, direction, showback, showborder);|This function should be placed in a draw event.  You pass it`x1`, `y1` the top left corner of the health bar and the `x2`, `y2` the bottom right hand corner of the health bar. You then pass it the `amount` which is the `health` variable you are using.  You set the `backcolor` to a color for the background, `mincol` for a color when you are low on health (typically `c_red`) and `maxcol` for when you are healthy (typically `c_lime`).  You give it a direction with `0` degrees being from left to right.  You pass it a boolean to show the background with `showback` and/or show a `border`.|<pre>// Draw Player 1 health bar<br>draw_healthbar(30, 30, 300, 60, hud_health, c_gray, c_red, c_green, 0, true, true);</pre>|
-|draw_sprite_ext(sprite, subimg, x, y, xscale, yscale, rot, colour, alpha) |This function draws the `sprite` passed with the image_index passed as `subimg`. You then place it in world space passing it an `x` and `y` coordinate.  A scale is given for the x and y axis with `xscale` and `yscale`.  You can pass a rotation in degrees called `rot`, a `colour` and a number between `0` and `1` to represent the alpha and how opaque the sprite is|<pre>// draw small version of player sprites for lives<br>draw_sprite_ext(spr_player, 0, 360 + space, 45, .4, .4, true, c_white, 1);</pre>|
-|distance_to_point(x, y)|This function returns the distance in pixels between the calling object and the `x` and `y` values passed|<pre>// returns distance between enemy and player from the player<br>dis = distance_to_point(obj_enemy.x, obj_enemy.y);</pre>|
-|place_meeting(x, y, obj)|This function is a collision detection call between the calling object and another object in a given `x` and `y` position.  This returns `true` or `false` depending on whether a collision occurs|<pre>if (place_meeting(obj_player.x, obj_player.y, obj_enemy)<br>{<br>   do something...<br>}</pre>|
-|instance_change(obj, perf)|This function changes the calling object to a new object passed as `obj`.  You set `perf` to true if you want to perform the new object's create and destroy events.|<pre>if (health<0)<br>instance_change(obj_ghost, true);</pre>|
-|gamepad_axis_valuegamepad_axis_value(device, axisIndex)|This function returns a value between `-1` and `1` based on the axis of a joystick on the controller.  The `device` is the gamepad slot to check and `axisIndex` is which joystick to check|<pre>x_axis = gamepad_axis_value(global.gamepad[0], gp_axislh);</pre>|
-|gamepad_button_value(device, button)|With this function you can get the current value of an analogue button, from 0 to 1, where `0` is no pressure and `1` is full pressure. The `device` is the gamepad slot to check and the `button` is the analogue button to check.|<pre>shoot = gamepad_button_check_pressed(global.gamepad[0], gp_shoulderrb));</pre>|
-
-## Built in Object Variables
-
-GameMaker objects all share common built in variables. Here are the ones that are important to this exercise. Here are the new Built-In Variables that are introduced in this third walk through.
-
-| Built in Object Variables                    | Description&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; | Example   | 
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-|timeline_index|This variable holds the index of the time line currently associated with the instance of the object.  You can use the name of the timeline that is in your asset folder |<pre>timeline_index = tml_lvl1;</pre>|
-|timeline_running|Timelines default to `false` and do not run at playtime.  The timeline variable needs to be set to `true` for the timeline to run|<pre>// Start timeline<br>timeline_running = true;</pre>|
-|timeline_position|This variable holds which frame the timeline is currently at.  You can change this dynamically in code as needed|<pre>if (health <= 0)<br>// reset timeline to begining<br>{<br>    timeline_position = 0;<br>}</pre>|
-|delta_time|This variable changes each frame and holds a real number in microseconds since the last frame rendered.  To get this value in milliseconds (ms) you need to divide it by `1,000,000`.|<pre>var tick = delta_time / 1000000;</pre>|
-
-## Algorythms
-
-### vectors players velocity
-
-### stopping repetitive audio
-
-### parent child relationship
-
-### rate of fire/timer not using alarms
-
-### finite state machine
-
-### explain place_meeting and two other collision detection functions
-
-### clamping for bounds simplest for, of collision detection
-
-### benefits of using actual seconds over steps
-
-### controller bias in this scheme
-
-### sinewave trig
-
-gamemaker assets
-timeline
-
-## provided objects
-obj_gamepad() adds up to 4 controllers to game.  Place this object in the very first room and make it `persistent`.  This way the controllers will be with the engine for the entire game.  You can access the controllers in `global.gamepad[0]`, `global.gamepad[1]`, `global.gamepad[2]` and `global.gamepad[3]`
-
-replace diagonals with clamping speed
-
-
-(5, 50)&#8226;-------> &#8226;(15, 50)
+## Algorithm(s)
+This demo for controlling the sprite uses an axis scalar algorithm to move the player.
