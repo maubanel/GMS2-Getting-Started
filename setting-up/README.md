@@ -53,7 +53,7 @@ You get to your empty repository on **GitHub**.
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-Open up **GitHub Desktop** and select **File | New Repository** to create a **GitHub** repository inside the **GameMaker Space Rocks** project you just created.
+Open up **GitHub Desktop** and select **File | New Repository** to create a **GitHub** repository inside the **Getting Started** project you just created.
 
 ![alt_text](images/fileNewRepository.png)
 
