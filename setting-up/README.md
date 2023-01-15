@@ -2,7 +2,7 @@
 
 ### Setting Up
 
-<sub>[home](../README.md#user-content-ue4-blueprints) • [next](../constructor-begin/README.md#user-content-constructor--begin-play)</sub>
+<sub>[home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../positioning-text/README.md#user-content-gms2-positioning-text)</sub>
 
 ![](../images/line3.png)
 
