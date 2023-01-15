@@ -65,8 +65,6 @@ The **GameMaker** folder will contain a `.yyp` file which is the project file.  
 
 ![show contents of gamemaker directory](images/DoNotAlter.png)
 
-![](../images/line2.png)
-
 ___
 
 ![](../images/line.png)
