@@ -197,7 +197,8 @@ ___
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Screen Positioning II">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up Screen Positioning II"> -->
+![Next Up Screen Positioning II"](images/banner.png)
 
 ![](../images/line.png)
 
