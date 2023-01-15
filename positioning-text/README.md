@@ -167,10 +167,7 @@ This does not affect the alignment for this one object.  The draw event is globa
 
 ![Game runs hellow world with proper centering](images/HelloWorldInGameCenter.png)
 
-![](../images/line2.png)
-
 ___
-
 
 ![](../images/line.png)
 
