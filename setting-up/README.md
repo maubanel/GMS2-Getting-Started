@@ -19,15 +19,16 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
-We will start a new project (or load up an existing one if we are continuing work). Press the <kbd>New</kbd> button to create a new project.
 
-![select the new project button](images/NewProject.png)
+If this is the first time you have run the game you may have to install the run-time component. Feel free to select **Required Only**.
+
+![install runtime components if necesary](images/FirstRun.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-All the walk throughs I am writing will be using the **GameMaker Lanuguage (GML)** so press the <kbd>GameMaker Language</kbd> button.
+We will start a new project (or load up an existing one if we are continuing work). Press the <kbd>New</kbd> button to create a new project.All the walk throughs I am writing will be using the **GameMaker Lanuguage (GML)** so press the <kbd>GameMaker Language</kbd> button.
 
 ![select GameMaker Language button](images/GMLType.png)
 
