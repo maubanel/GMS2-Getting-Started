@@ -31,9 +31,9 @@ Includes:
 <kbd></kbd> &nbsp;&nbsp; [Variables](variables/README.md#user-content-gms2-variables) <br>
 <kbd></kbd> &nbsp;&nbsp; [If Statements](if-statements/README.md#user-content-gms2-if-statements) <br>
 <kbd></kbd> &nbsp;&nbsp; [Loops](loops/README.md#user-content-gms2-loops) <br>
-<kbd></kbd> &nbsp;&nbsp; [Screen Positioning I](positioning-text-1/README.md#user-content-gms2-screen-positioning-I) <br>
-<kbd></kbd> &nbsp;&nbsp; [Screen Positioning II](positioning-text-2/README.md#user-content-gms2-screen-positioning-II) <br>
-<kbd></kbd> &nbsp;&nbsp; [Screen Positioning III](positioning-text-3/README.md#user-content-gms2-screen-positioning-III) <br>
+<kbd></kbd> &nbsp;&nbsp; [Screen Positioning I](positioning-text-1/README.md#user-content-gms2-screen-positioning-i) <br>
+<kbd></kbd> &nbsp;&nbsp; [Screen Positioning II](positioning-text-2/README.md#user-content-gms2-screen-positioning-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Screen Positioning III](positioning-text-3/README.md#user-content-gms2-screen-positioning-iii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Errors](errors/README.md#user-content-gms2-errors) <br>
 <kbd></kbd> &nbsp;&nbsp; [NPC Movement](npc-movement/README.md#user-content-gms2-npc-movement) <br>
 <kbd></kbd> &nbsp;&nbsp; [Simple Movement in 8 Directions](simple-movement/README.md#user-content-simple-movement-in-8-directions) <br>
