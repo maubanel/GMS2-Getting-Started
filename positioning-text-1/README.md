@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Screen Positioning I
 
-<sub>[home](../README.md#user-content-gms2-screen-positioning) • [next](../positioning-text-2/README.md#user-content-screen-positioning-ii)</sub>
+<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Lets take a closer look at how we position text, objects and other items on screen.
 
@@ -25,7 +25,7 @@ The intersection of the two axis is point (0,0).  The X axis is positive towards
 
 ![Illustratoin of cartesian coordinate system](images/CartesianCoordinateSytem.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -33,7 +33,7 @@ To position points we move along the **X** & **Y** axis.  So for position *(2, -
 
 ![Putting two points in cartesian coordinate system](images/TwoPointsOnCartesianPlane.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`MTP`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -41,7 +41,7 @@ To position points we move along the **X** & **Y** axis.  So for position *(2, -
 
 ![GameMaker coordinate system](images/GameMakerCartesianPlanA.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`MTP`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -49,7 +49,7 @@ Create a new room called `rm_position_objects` and place it at the top of the **
 
 ![add room called rm_position_objects and place at top of room order](images/positionObjectsRoom.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`MTP`| :small_orange_diamond:
 
@@ -57,7 +57,7 @@ Open the room **rm_position_objects**. We do not use hard coded numbers for the 
 
 ![alt_text](images/ScreenPos.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`MTP`| :small_orange_diamond: :small_blue_diamond:
 
@@ -65,7 +65,7 @@ Right click on **Objects** and select **Create | Object** called `obj_position_o
 
 ![add object obj_position_objects and add a draw event](images/positionObjectsObject.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`MTP`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -73,7 +73,7 @@ Press the <kbd>Variable Definitions</kbd> button and then press the <kbd>Add</kb
 
 ![add a variable called line_height of type integer set to 22](images/AddLineHeight.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`MTP`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -85,7 +85,7 @@ Now add to the **Draw** script:
 
 ![draw title](images/Script.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`MTP`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -93,7 +93,7 @@ Add a **obj_position_objects** to **rm_position_objects**.  Now *press* the <kbd
 
 ![add obj_object_positions to room and run game](images/AddToRoomRun.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`MTP`| :large_blue_diamond:
 
@@ -103,7 +103,7 @@ Why `room_width - 1`? This is because the first pixel on the left is accessed wi
 
 ![alt_text](images/lineTitlePlacement.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -111,7 +111,7 @@ Let's use **[draw_line(x1, y1, x2, y2)](https://manual.yoyogames.com/#t=GameMake
 
 ![Adds line under title](images/drawLine.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -120,7 +120,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. W
 
 ![line uynder title in game](images/lineUnderTitle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -128,7 +128,7 @@ Lets look at placing 2-D sprites, something more game-y, into this two dimension
 
 ![Concept art for 3 new objects we will add](images/ConceptArtForPlacement.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -136,7 +136,7 @@ Lets start by drawing another line on line 6.  You can just repeat the previous 
 
 ![Add a second line to frame new objects"](images/drawSecondLine.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -144,7 +144,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. W
 
 ![Run game with two yellow lines](images/secondLineInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`MTP`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -152,7 +152,7 @@ We want to create a new **sprite**. *Right click* the right mouse button on the 
 
 ![Add a triangle sprit](images/CreateTriangleSprite.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -160,7 +160,7 @@ Look at the the sprite tab and see the size of the sprite.  It defaults to `64` 
 
 ![Edit triangle sprite](images/DefaultSpriteSize.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -168,7 +168,7 @@ We want the triangle to be *red*.   *Press* the left mouse button on the red col
 
 ![Draw red triangle](images/RedTrianglePrep.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -176,7 +176,7 @@ We want to draw all of our sprites to be facing to the right hand side of the sc
 
 ![GIF of drawing triangle](images/DrawTrianglePolygon.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`MTP`| :large_blue_diamond: :large_blue_diamond:
 
@@ -184,7 +184,7 @@ The triangle sprite should look like this:
 
 ![Finished red triangle facing right](images/RedTirangleDrawn.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`MTP`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -195,12 +195,12 @@ We want to create another sprite, this time a blue square.  *Right click* the ri
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Screen Positioning II">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-| [home](../README.md#user-content-gms2-screen-positioning) | [next](../positioning-text-2/README.md#user-content-screen-positioning-ii)|
-|---|---|
+| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
+|---|---|---|
 

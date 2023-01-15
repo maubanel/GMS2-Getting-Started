@@ -173,6 +173,6 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../data-types/README.md#user-content-gms2-data-types)|
+| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
 |---|---|---|
 

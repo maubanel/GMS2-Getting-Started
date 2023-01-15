@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Simple Movement
 
-<sub>[home](../README.md#user-content-gms2-move-in-8-directions) • [next](../simple-8dir/README.md#user-content-simple-movement-8-directions)</sub>
+<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 We will use **[hspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/hspeed.htm)** and **[vspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/vspeed.htm)** to move the player around the 2d level.
 
@@ -18,7 +18,7 @@ Create a new level by right clicking on **Rooms** and select **Create | Room** a
 
 ![create rm_simple_movement and move to top of room order](images/RmSimpleMovement.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -26,7 +26,7 @@ Now lets create a sprite for our player that we will be moving.  We will create 
 
 ![create spr_player and add a circle and eyeball facing left](images/SprPlayer.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -34,7 +34,7 @@ Now lets create a sprite for our player that we will be moving.  We will create 
 
 ![alt_text](images/objPlayer.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -42,7 +42,7 @@ Press the <kbd>Add Event</kbd> and add a **Create** and center the object in the
 
 ![add create and event and center player](images/CenterPlayerInCreate.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`MI8D`| :small_orange_diamond:
 
@@ -50,7 +50,7 @@ Open up **rm_simple_movement** and drag and drop a **obj_player** into the level
 
 ![add obj_player to rm_simple_movement and press play](images/dragAndPlay.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
 
@@ -60,7 +60,7 @@ Lets prove it.  We will use another new function **[show_debug_message(string)](
 
 ![add a keyboard check function and subtract right button from left button and print result to console log](images/ShowRightControls.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -68,7 +68,7 @@ You should have an Output tab in the bottom.  If you don't see it you can select
 
 ![play game and see output for when pressing left and right buttons on keyboard](images/PrintRightControls.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -76,7 +76,7 @@ Repeat the for moving up and down by looking for the object moving up or down.  
 
 ![add subtraction for moving down to moving up and print result to console](images/printInputUpDown.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -84,7 +84,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. L
 
 ![run game and see all four keys have an effect](images/TwoAxisMovementPrint.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
@@ -98,7 +98,7 @@ Delete the two `show_debug_message(string)` functions and add to both the `hspee
 
 ![add movement to script by using hspeed and vspeed with the input axis](images/AddMovementToScript.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -106,7 +106,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ![player moves in eight directions but leaves level](images/TwoAxis8DirectionMovement.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -120,7 +120,7 @@ Add the following to obj_circle_movement: Step event script.
 ![add move_wrap to level to stop player from leaving level](images/addMoveWrap.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -128,7 +128,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ![play game and try and leave level but player wraps](images/MoveWrap.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -140,7 +140,7 @@ Add the following to **obj_player: Step** event script.
 
 ![set image_angle to direction](images/setImageAngle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -148,7 +148,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. R
 
 ![turning the player in game looks jerky](images/BadTurning.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -156,7 +156,7 @@ Open up **spr_player** and press the **Origin | Middle Center** option to center
 
 ![center player origin](images/CenterPlayerOrigin.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -164,7 +164,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![run game and move player in 8 directoins](images/FInalTurning.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -174,11 +174,11 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Add Animation in 8 Directions">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-| [home](../README.md#user-content-gms2-move-in-8-directions) | [next](../simple-8dir/README.md#user-content-simple-movement-8-directions)|
-|---|---|
+| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
+|---|---|---|

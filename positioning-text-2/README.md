@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Screen Positioning II
 
-<sub>[previous](../positioning-text-1/README.md#user-content-screen-positioning-i) • [home](../README.md#user-content-gms2-screen-positioning) • [next](../positioning-text-3/README.md#user-content-screen-positioning-iii)</sub>
+<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Lets take a closer look at how we position text, objects and other items on screen.
 
@@ -18,7 +18,7 @@ Repeat this one last time for a sprite called `spr_circle`.  Press **Edit Sprite
 
 ![Create a green circle sprite](images/CreateCircleSprite.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -26,7 +26,7 @@ We can't place a sprite in the room we have to bind it to an game object. *Right
 
 ![Create obj_triangle game object and assign spr_triangle](images/ObjTriangle.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`MTP`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -34,7 +34,7 @@ Now lets create an object for the square. *Right click* on **Object** and select
 
 ![Create obj_square game object](images/ObjSquare.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`MTP`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -42,7 +42,7 @@ Now lets create an object for the circle. *Right click* on *Object* and select *
 
 ![Create obj_circle game object](images/ObjCircle.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`MTP`| :small_orange_diamond:
 
@@ -52,7 +52,7 @@ Please note a consistency here.  We are naming all objects with prefix obj_ and 
 
 ![Drag three newly created game objects into room and guess location under previous text](images/dragThreeShapesInRoom.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`MTP`| :small_orange_diamond: :small_blue_diamond:
 
@@ -60,7 +60,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. W
 
 ![Run the game and position three objects until they are on the line](images/ThreeShapesAlongLine.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`MTP`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -68,7 +68,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. W
 
 ![Press variable definition button on obj_triangle](images/AddVariableToObjTriangle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`MTP`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -76,7 +76,7 @@ Press the <kbd>Add</kbd> button and call the variable `line_height` and set the 
 
 ![add line_height variable set to 22 to obj_triangle](images/AddLineHeightTriangle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`MTP`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -90,7 +90,7 @@ The **[Step Event](https://manual.yoyogames.com/The_Asset_Editors/Object_Propert
 
 ![Create and step events illustration](images/CreateStepEvents.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`MTP`| :large_blue_diamond:
 
@@ -100,7 +100,7 @@ For positioning the objects in the room we will use the create event.  We only n
 
 ![add Create Event to obj_triangle](images/TriangleCreateEvent.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -108,7 +108,7 @@ Now we want the obj_triangle to be on the sixth line (6 * line_height or 6 * 22 
 
 ![demonstrate where on second line](images/secondLineInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -117,7 +117,7 @@ In scripting we are adjusting two variables that come with every object.  All ob
 
 ![First attempt at positioning triangle in code](images/CreateLineHeightTriangle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -125,7 +125,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![Run game and triangle is below the line and not center on it](images/triangleTooLow.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -133,7 +133,7 @@ The game bases everything on the object's origin.  This is a single point relati
 
 ![Illustration of sprite origin](images/originTriangle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -141,7 +141,7 @@ The good news is that we can change the origin. Open **spr_triangle** and press 
 
 ![set obj_triangle sprite origin to middle center](images/CenterOriginTriangle.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`MTP`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -150,7 +150,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![Run game and triangle correctly centered based on new origin but off by half a sprite width](images/restOfTriangle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -158,7 +158,7 @@ Now we need to compensate for where the sprite's origin is located.  It is locat
 
 ![Adjust for half a sprite width and height](images/MoveXByHalfSprite2.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -166,7 +166,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![Run game and triangle is now properly centered](images/triangleCorrect.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -174,7 +174,7 @@ What if down the road I wanted to make a change and have the sprite be **32 x 32
 
 ![Turn this offset into a variable](images/UseVariableForXPosition.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`MTP`| :large_blue_diamond: :large_blue_diamond:
 
@@ -182,7 +182,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. I
 
 ![Run game with variable offset and result should be the same](images/triangleCorrect.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`MTP`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -194,12 +194,12 @@ Lets do the same thing with **obj_square**.  Let's start by clicking on **Variab
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Screen Positioning III">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-|[previous](../positioning-text-1/README.md#user-content-screen-positioning-i)| [home](../README.md#user-content-gms2-screen-positioning) | [next](../positioning-text-3/README.md#user-content-screen-positioning-iii)|
+| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
 |---|---|---|
 

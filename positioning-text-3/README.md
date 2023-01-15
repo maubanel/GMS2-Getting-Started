@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Screen Positioning III
 
-<sub>[previous](../positioning-text-2/README.md#user-content-screen-positioning-ii) • [home](../README.md#user-content-gms2-screen-positioning)</sub>
+<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Lets take a closer look at how we position text, objects and other items on screen.
 
@@ -18,7 +18,7 @@ Press the <kbd>Add Event</kbd> button and select a **Create** event.
 
 ![Add Create event to obj_square](images/AddCreateEventToSquare.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -26,7 +26,7 @@ In this case we want the middle of the room and we can divide the `room_width` v
 
 ![Center square on x axis in script](images/CreateScriptSquareInitial.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`MTP`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -34,7 +34,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. W
 
 ![Run game and square is not positioned correctly](images/squareTooLowGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`MTP`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -45,7 +45,7 @@ We will be using a different event type to rotate the object.  Since this is not
 ![Add step event to square object](images/AddStepToSquareObject.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`MTP`| :small_orange_diamond:
 
@@ -56,7 +56,7 @@ To rotate the player there is a variable that is used to determine the angle the
 ![Illustration of 360 degrees representing rotation in gamemaker](images/RotationsUsingImageAngle.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`MTP`| :small_orange_diamond: :small_blue_diamond:
 
@@ -64,7 +64,7 @@ We will start by rotating counter-clockwise.  We will add 5 degrees every frame.
 
 ![Add 5 degrees per frame to image_angle in step event](images/RotateSquareStep.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`MTP`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -72,7 +72,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![Square sprite in game rotating around it top left corner where the origin is located](images/RotatingCube1.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`MTP`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -80,7 +80,7 @@ Now lets prove that changing the origin will alter the point of rotation.  If th
 
 ![Add setp event to obj_triangle](images/AddStepToTriangle.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`MTP`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -88,7 +88,7 @@ Lets rotate the triangle clockwise so we will subtract by 5 each frame. So it st
 
 ![Subtract 5 degrees per frame for image_angle in obj_triangle](images/TriangleStepRotate.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`MTP`| :large_blue_diamond:
 
@@ -96,7 +96,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![Triangle rotates clockwise around its middle center origin](images/RotatingTriangle1.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -104,7 +104,7 @@ Now lets go back and fix the origin on the square so it is positioned in the cen
 
 ![Adjust origin of obj_square to middle center](images/CenterOriginOnSquare.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -113,7 +113,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![Run game and square is centered and rotates correctly on its middle center](images/RotatingSquareCentered.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`MTP`| :large_blue_diamo
 nd: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
@@ -122,7 +122,7 @@ Now lets get the circle positioned properly.  Add a **Variable Definition** to `
 
 ![Add a line_height variable set to 22 to obj_circle](images/AddLineHeightToCircle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`MTP`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -130,7 +130,7 @@ We need to position it in the center at the right far end corner.  Now we need t
 
 ![Add Create event to obj_circle](images/AddCreateEventToCircle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -138,7 +138,7 @@ Where is the far right side of the room?  We can open up our current room and lo
 
 ![Show room setting that shows values for height and width](images/RoomWidthSize.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`MTP`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -146,7 +146,7 @@ Ok, lets set the y on the y-axis to the 6th line and set the x to room_width.  T
 
 ![put circle on end of line](images/circleCreate.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -154,7 +154,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. W
 
 ![circle out of room](images/CircleOutOfRoom.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -162,7 +162,7 @@ Open up **spr_circle** and center the origin like we did previously on the other
 
 ![Center origin on spr_circle](images/CenterOriginOnCircle.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`MTP`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -170,7 +170,7 @@ RuNow *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.
 
 ![Run game and circle is half off screen to the right](images/HalfCircleOffScreen.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`MTP`| :large_blue_diamond: :large_blue_diamond:
 
@@ -178,7 +178,7 @@ Go back to **obj_circle** and adjust its **Create** script by subtracting `sprit
 
 ![subtract half of the sprite_width for x position of obj_circle](images/SubtractHalfSprite.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`MTP`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -186,7 +186,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![All three objects positioned correctly](images/Final3Shapes.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 22.`\|`MTP`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -196,7 +196,7 @@ Now you can finish this room off yourself by rotating the circle in a new step e
 
 ___
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 23.`\|`MTP`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -215,11 +215,11 @@ ___
 
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-|[previous](../positioning-text-2/README.md#user-content-screen-positioning-ii)| [home](../README.md#user-content-gms2-screen-positioning) |
-|---|---|
+| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
+|---|---|---|
