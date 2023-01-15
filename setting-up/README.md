@@ -36,7 +36,7 @@ We will start a new project (or load up an existing one if we are continuing wor
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you will select a directory and a name for the project.  You can also create it in an existing **Git/GitHub** repository which I am doing here.  Press the <kbd>Save</kbd> button.
+Now you will select a directory and a name for the project.  Press the <kbd>Save</kbd> button.
 
 ![select a folder and and a name for the project](images/NameSaveProject.png)
 
