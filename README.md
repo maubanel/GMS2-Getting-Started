@@ -34,8 +34,8 @@ Includes:
 <kbd></kbd> &nbsp;&nbsp; [Screen Positioning I](positioning-text-1/README.md#user-content-gms2-screen-positioning) <br>
 <kbd></kbd> &nbsp;&nbsp; [Screen Positioning II](positioning-text-2/README.md#user-content-gms2-screen-positioning) <br>
 <kbd></kbd> &nbsp;&nbsp; [Screen Positioning III](positioning-text-3/README.md#user-content-gms2-screen-positioning) <br>
-<kbd></kbd> &nbsp;&nbsp; [Errors](https://github.com/maubanel/GMS2-Errors#user-content-gms2-errors) <br>
-<kbd></kbd> &nbsp;&nbsp; [NPC Movement](https://github.com/maubanel/GMS2-NPC-Movement#user-content-gms2-npc-movement) <br>
+<kbd></kbd> &nbsp;&nbsp; [Errors](errors/README.md#user-content-gms2-errors) <br>
+<kbd></kbd> &nbsp;&nbsp; [NPC Movement](npc-movement/README.md#user-content-gms2-npc-movement) <br>
 <kbd></kbd> &nbsp;&nbsp; [Simple Movement in 8 Directions](https://github.com/maubanel/GMS2-8-Directions/blob/main/simple-movement/README.md#user-content-simple-movement-in-8-directions) <br>
 
 <!-- LICENSE -->
