@@ -2,7 +2,7 @@
 
 ### GMS2 Positioning Text
 
-<sub>[previous](../loops/README.md#user-content-gms2-loops) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../data-types/README.md#user-content-gms2-data-types)</sub>
+<sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../data-types/README.md#user-content-gms2-data-types)</sub>
 
 ![](../images/line3.png)
 
@@ -173,6 +173,6 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../loops/README.md#user-content-gms2-loops)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
+| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
 |---|---|---|
 
