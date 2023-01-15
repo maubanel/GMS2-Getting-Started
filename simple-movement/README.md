@@ -12,7 +12,7 @@ We will use **[hspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Refer
 
 ---
 
-##### `Step 1.`\|`MI8D`|:small_blue_diamond:
+##### `Step 1.`\|`GMGS`|:small_blue_diamond:
 
 Create a new level by right clicking on **Rooms** and select **Create | Room** and call it `rm_simple_movement`.  Open up **Room Order** and *drag* it to the top of the list if you have other rooms in your project.
 
@@ -20,7 +20,7 @@ Create a new level by right clicking on **Rooms** and select **Create | Room** a
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`GMGS`|:small_blue_diamond: :small_blue_diamond: 
 
 Now lets create a sprite for our player that we will be moving.  We will create an eyeball so we can see the direction we are moving in. Right click on **Sprites** and select **Create | Sprite** and call it `spr_player`.  Now press the <kbd>Edit Image</kbd> button to go to the editor.  Select the **Circle tool** and the yellow color and draw a round circle to fill the sprite,  Add an eyeball pointing the right (0 degrees) so that we have the player oriented in our starting direction.
 
@@ -28,7 +28,7 @@ Now lets create a sprite for our player that we will be moving.  We will create 
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`GMGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Right click* on **Objects** and select **Create | Object** and name it `obj_player`.  Assign sprite `spr_player` by pressing **Sprite** and selecting the sprite.
 
@@ -36,7 +36,7 @@ Now lets create a sprite for our player that we will be moving.  We will create 
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`GMGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press the <kbd>Add Event</kbd> and add a **Create** and center the object in the dead center of the room.
 
@@ -44,7 +44,7 @@ Press the <kbd>Add Event</kbd> and add a **Create** and center the object in the
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`MI8D`| :small_orange_diamond:
+##### `Step 5.`\|`GMGS`| :small_orange_diamond:
 
 Open up **rm_simple_movement** and drag and drop a **obj_player** into the level. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.
 
@@ -52,7 +52,7 @@ Open up **rm_simple_movement** and drag and drop a **obj_player** into the level
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`GMGS`| :small_orange_diamond: :small_blue_diamond:
 
 Open up **obj_player** and press the <kbd>Add Event</kbd> button and add a **Step | Step** event.  Now we will look at **[keyboard_check(key)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_check.htm)** and will subtract the left key from the right key.  Now `keyboard_check(key)` returns a boolean which will be 1 if true and 0 if false.  This means if *right* is pressed it will be *1-0*. If *left* is pressed it will be *0-1*.  If both right and left are pressed it will be 1-1.  So this gives us a range of -1 to 1.
 
@@ -62,7 +62,7 @@ Lets prove it.  We will use another new function **[show_debug_message(string)](
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`GMGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 You should have an Output tab in the bottom.  If you don't see it you can select **Window | Output** and it will appear in the bottom section (you might have to expand it to see it better). Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and press the <kbd>left</kbd> and <kbd>right</kbd> arrows (and both at the same time) then see the values being printed to reflect the outcome.
 
@@ -70,7 +70,7 @@ You should have an Output tab in the bottom.  If you don't see it you can select
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`GMGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Repeat the for moving up and down by looking for the object moving up or down.  Remember positive **y** is moving down so we subtract the up key from the down key.  Lets print to output this result as well.
 
@@ -78,7 +78,7 @@ Repeat the for moving up and down by looking for the object moving up or down.  
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`GMGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Look at the Output Tab and press the left, right, up and down arrow on the keyboard.  The message should print and show either a -1, 0 or 1 for both horizontal or vertical movement. Notice that this only returns a `0`,`1` or `-1` no matter what.  We will use this to multiply how many pixels we move on each axis.
 
@@ -86,7 +86,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. L
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`MI8D`| :large_blue_diamond:
+##### `Step 10.`\|`GMGS`| :large_blue_diamond:
 
 Now what is nice about having a range of -1 to 1 is that we can scale it by multiplying it.  If we want to move at a speed of 5 we can multiply this value by 5 and it will range from -5 to 5.  What we will do is set the movement component for each axis.  This is through two variables that comes with every object. **[vspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/vspeed.htm)** and **[hspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/hspeed.htm)**.
 
@@ -100,7 +100,7 @@ Delete the two `show_debug_message(string)` functions and add to both the `hspee
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the left, right, up and down arrow on the keyboard.  Now the circle moves around the screen.  But woops it can go off screen and disapear.
 
@@ -109,7 +109,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 ![](../images/line2.png)
 
 
-##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Since the entire level is in this one window we can wrap the player when it goes off screen. **GameMaker** has built in functions for a lot of very common game issues and this is one of them: **[move_wrap(hor, vert, margin)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/move_wrap.htm)**
 
@@ -122,7 +122,7 @@ Add the following to obj_circle_movement: Step event script.
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the left, right, up and down arrow on the keyboard.  Now go off screen both horizontally and vertically and it reappears on the other side.  Works like a charm and you can never exit the play volume! 
 
@@ -130,7 +130,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now lets have the player character look at the direction it is moving in.  Now we want the player's **[image_angle](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_angle.htm)** to face the direction the player is moving in.  There is a variable called **[direction](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/direction.htm)**. that has the angle of the speed of the player (the addition of the hspeed and vspeed).
 		
@@ -142,7 +142,7 @@ Add the following to **obj_player: Step** event script.
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 15.`\|`GMGS`| :large_blue_diamond: :small_orange_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run the game and notice that the rotation is wrong.  The player is rotating along its origin or the top left corner. This looks really bad when turning.
 
@@ -150,7 +150,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. R
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 16.`\|`GMGS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Open up **spr_player** and press the **Origin | Middle Center** option to center the origin.  We want the sprite to rotate in its center of gravity.
 
@@ -158,7 +158,7 @@ Open up **spr_player** and press the **Origin | Middle Center** option to center
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`GMGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have the movement working how we like it for a quick and simple implementation.
 
@@ -166,7 +166,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`GMGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
