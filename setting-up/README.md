@@ -28,9 +28,9 @@ If this is the first time you have run the game you may have to install the Runt
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We will start a new project (or load up an existing one if we are continuing work). Press the <kbd>New</kbd> button to create a new project.All the walk throughs I am writing will be using the **GameMaker Lanuguage (GML)** so press the <kbd>GameMaker Language</kbd> button.
+We will start a new project (or load up an existing one if we are continuing work). Press the <kbd>New</kbd> button to create a new project. Now we will start with a **Blank** project so press the 
 
-![select GameMaker Language button](images/GMLType.png)
+![new blank project](images/NewBlank.png)
 
 ![](../images/line2.png)
 
