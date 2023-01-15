@@ -2,7 +2,7 @@
 
 ### GMS2 If Statements
 
-<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../loops/README.md#user-content-gms2-loops)</sub>
+<sub>[previous](../variables/README.md#user-content-gms2-variables) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../loops/README.md#user-content-gms2-loops)</sub>
 
 ![](../images/line3.png)
 
@@ -222,5 +222,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../loops/README.md#user-content-gms2-loops)|
+| [previous](../variables/README.md#user-content-gms2-variables)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../loops/README.md#user-content-gms2-loops)|
 |---|---|---|
