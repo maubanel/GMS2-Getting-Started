@@ -36,6 +36,16 @@ Includes:
 <kbd></kbd> &nbsp;&nbsp; [NPC Movement](https://github.com/maubanel/GMS2-NPC-Movement#user-content-gms2-npc-movement) <br>
 <kbd></kbd> &nbsp;&nbsp; [Simple Movement in 8 Directions](https://github.com/maubanel/GMS2-8-Directions/blob/main/simple-movement/README.md#user-content-simple-movement-in-8-directions) <br>
 
+<!-- LICENSE -->
+## License
+Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
+
+
+</p>
+</details>
+<details><summary>Dev Tips</summary>
+make git m="add commit message"
+</details>
 
 ## Programming Concepts
 The following programming concepts are raised in FirstLook.yyp.
