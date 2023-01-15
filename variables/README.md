@@ -2,7 +2,7 @@
 
 ### GMS2 Variables
 
-<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../if-statements/README.md#user-content-gms2-if-statements)</sub>
+<sub>[previous](../data-types/README.md#user-content-gms2-data-types) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../if-statements/README.md#user-content-gms2-if-statements)</sub>
 
 ![](../images/line3.png)
 
@@ -103,5 +103,5 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 
 ![](../images/line.png)
 
-| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../if-statements/README.md#user-content-gms2-if-statements)|
+| [previous](../data-types/README.md#user-content-gms2-data-types)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../if-statements/README.md#user-content-gms2-if-statements)|
 |---|---|---|
