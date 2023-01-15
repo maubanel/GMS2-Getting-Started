@@ -12,7 +12,7 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 
 ---
 
-##### `Step 1.`\|`ITA`|:small_blue_diamond:
+##### `Step 1.`\|`GMGS`|:small_blue_diamond:
 
 In GameMaker all of our resources are stored in the **Resources** menu.  By default it is in the right hand side of the screen (although you can change its location as these tabs can be redocked).  Each of these sections have a small triangle that can be expanded or minimized to show the assets of that class.  All of our art, audio, scripting and other elements will be stored here in the appropriate folder.  
 
@@ -23,7 +23,7 @@ All projects in **GameMaker Studio 2** start with a room called **room0**. A roo
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`GMGS`|:small_blue_diamond: :small_blue_diamond: 
 
 Now we should rename the room to something more appropriate.  It is a good idea to always preface the names with what Resource type we are using.  We will prepend the room names with `rm_` and call it `rm_hello_world` by *right clicking* on the room and selecting **Rename**</b> from the drop down menu and then type in the new name for the room.
 
@@ -31,7 +31,7 @@ Now we should rename the room to something more appropriate.  It is a good idea 
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`GMGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go to the **Resources** menu on the right and *right click* on the **Object** heading that is partially greyed out.  *Select* **Create Object**, this will add the default **Game Object** to our **Workspace**.  Notice that in our main window it has a tab that says **Workspace1**  This is the area where we will be customizing the game object.  Go to the **Name** input box and change the **Name** from **object1** to `obj_hello_world_text`.
 
@@ -39,7 +39,7 @@ Go to the **Resources** menu on the right and *right click* on the **Object** he
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`GMGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we have a game object.  Normally we would attach an animation to it to play in the game.  In this case we will use the object to draw text on the screen.  GameMaker objects are controlled through [Object Events](https://manual.yoyogames.com/The_Asset_Editors/Object_Properties/Object_Events.htm)
 
@@ -51,7 +51,7 @@ In this case we do not have any art to attach to the sprite so we will need to d
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`ITA`| :small_orange_diamond:
+##### `Step 5.`\|`GMGS`| :small_orange_diamond:
 
 This brings up a scripting tab (notice the green lines connect the related tabs together so you don't get confused).  This is where we add scripting for game logic.  The very first thing we are going to start with is add comments.  When you are starting out this is usually the part that is counter-intuitive.  When we write an essay we usually don't add comments to describe what we are writing.  
 		
@@ -70,7 +70,7 @@ I added:
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`GMGS`| :small_orange_diamond: :small_blue_diamond:
 
 To draw text to a screen we need to call a [Function](https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Overview%2FRuntime_Functions.htm&rhsearch=function&rhhlterm=function).  What is a function?  It is a way of allowing us to do a similar task over and over again without retyping all the code again.  If you are copying and pasting the same blocks of code to use in multiple places, you should consider turning it into a function.  
 
@@ -90,7 +90,7 @@ We will use the **x** and **y**  position of the object in the room.  There are 
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`GMGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 The above should draw the text "Hello World" (without quotation marks) in the room.  But first we need to drag this game object in the room so it knows to run this game object in this level we previously named. So we *double left click* on the **rm_hello_world** to go back (or reopen) the room.  *Adjust* the zoom so you can see the entire room as we want to *drag* the game object in the center.  Make sure the **Layers** tab in open in the **Room Editor** and that you highlight **Instances** layer.  You can only add game objects onto an instance layer (you can have more than one layer of course).  Then drag and drop a single instance of **obj_hello_world_text** into the main game window in as close to the center as you can make it:
 
@@ -98,7 +98,7 @@ The above should draw the text "Hello World" (without quotation marks) in the ro
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`GMGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 I eyeballed the center of the room.  What if I want it to be in the exact center of the room.  How do I go about doing this?  I can *double left click* on the **icon** in the middle of the room which will bring up an **Instance** window of this game object.  I can look at the **Properties | Room Settings | Width & Height** to see the pixel dimensions of the room.  In my case it defaults to `1366` by `768`.  The center would be these two values divided by 2.  So if your instance window does not show **x** as `683` and **y** as `384`, make the change to them in the editor window now so that the object is dead center.
 
@@ -106,7 +106,7 @@ I eyeballed the center of the room.  What if I want it to be in the exact center
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`GMGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we are ready to run the game for the first time.  I know this is not impressive but this is the least we need to have something in a game.  We need a room and a game object with some logic.  Press the <kbd>Play</kbd> button in the top menu bar to launch the game.  It should look like this:
 
@@ -114,7 +114,7 @@ Now we are ready to run the game for the first time.  I know this is not impress
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`ITA`| :large_blue_diamond:
+##### `Step 10.`\|`GMGS`| :large_blue_diamond:
 
 Notice that the text is left justified.  It starts writing from the center going towards the right hand side.
 
@@ -122,7 +122,7 @@ Notice that the text is left justified.  It starts writing from the center going
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: 
 
 What if we wanted to center the text on the screen?  We can call another function to adjust how the text is aligned horizontally.  It is conveniently called **[draw_set_halign(halign)](https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FDrawing%2FText%2Fdraw_get_halign.htm&rhsearch=draw_set_align&rhhlterm=draw_set_align)**. This function again does not return anything, it just sets the horizontal alignment.  What is the argument `halign`?  This is not a number and is not a string.  It is an **[enumerator](https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Overview%2FData_Types.htm&rhsearch=enumerator&rhhlterm=enumerator)** (will get into detail in another tutorial) that lists the types of alignment in english.  The enumerator we want is called `fa_center`.  Go back to the script window in **obj_hello_world_text: Draw** and on the very top (above the `draw_text(string)` function just start to type `draw_set_halign`.
 
@@ -131,7 +131,7 @@ What if we wanted to center the text on the screen?  We can call another functio
 ![](../images/line2.png)
 
 
-##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 You will notice that the engine starts to give you possible suggestions in the auto-complete.  If you type enough it will narrow it down to its one built in function.  You don't need to continue typing.  If it is highlighted you can just press the <kbd>Enter</kbd> or <kbd>Tab</kbd> to fill in the rest for you. The advantage is not only speed but it prevents spelling errors which causes the game to not compile or run.
 
@@ -141,7 +141,7 @@ Now in the parenthesis start to type the parameter `fa_center` and then auto-com
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Add a comment to explain what this does on top of the function (your comment does not have to be the same as mine, as long as it makes sense to you and/or your team).  It should look like:
 
@@ -150,7 +150,7 @@ Add a comment to explain what this does on top of the function (your comment doe
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 This does not affect the alignment for this one object.  The draw event is global and it will change the alignmnet for all other objects in this level. Now at the end lets return back to the default.  Otherwise it is possible that this will affect the horizontal alignment of other future objects.  So set the horizontal alignment back to `fa_left`.
 
@@ -158,7 +158,7 @@ This does not affect the alignment for this one object.  The draw event is globa
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 15.`\|`GMGS`| :large_blue_diamond: :small_orange_diamond: 
 
 *Run* the game again by pressing the <kbe>Play Button</kbd> in the top menu bar to launch the game.  Now the text should be horizontally centered. It should look like this:
 
