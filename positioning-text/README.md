@@ -33,7 +33,7 @@ Now we should rename the room to something more appropriate.  It is a good idea 
 
 ##### `Step 3.`\|`GMGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Resources** menu on the right and *right click* on the **Object** heading that is partially greyed out.  *Select* **Create Object**, this will add the default **Game Object** to our **Workspace**.  Notice that in our main window it has a tab that says **Workspace1**  This is the area where we will be customizing the game object.  Go to the **Name** input box and change the **Name** from **object1** to `obj_hello_world_text`.
+Go to the **Resources** menu on the right and *right click* on the **Object** heading that is partially greyed out.  *Select* **Create | Object**, this will add the default **Game Object** to our **Workspace**.  Notice that in our main window it has a tab that says **Workspace1**  This is the area where we will be customizing the game object.  Go to the **Name** input box and change the **Name** from **object1** to `obj_hello_world_text`.
 
 ![create a new object called obj_hello_world_text](images/CreateHWObject.gif)
 
