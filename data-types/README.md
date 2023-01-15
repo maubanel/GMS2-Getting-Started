@@ -1,8 +1,8 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### GMS2 Data Types
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. This walk through looks at [data types](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Data_Types.htm) in GMS2. Lets looks at the most common built in data types that **GameMaker GML** provides us.  A data type indicates what kind of information a variable holds and how to allocate memory to store it.
 
@@ -19,7 +19,7 @@ Lets create a new **room** and look at some more data types.  *Right click* on t
 
 ![create a new room called rm_data_types and make it first in room order list](images/AddTypesRoom.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -28,7 +28,7 @@ Lets now create another object that will be responsible for controlling all elem
 
 ![add object called boj_data_types_controller](images/objdatatypecontrl.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -36,7 +36,7 @@ Now in this newly created object  *left click* on the <kbd>Add Event</kbd> butto
 
 ![Add a Draw Event to obj_data_types_controller](images/AddDrawObjDataType.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -44,7 +44,7 @@ Now lets take a look at the newly created script.  The first line is special and
 
 ![Look at special meaning of ///@ description](images/InsertDescriptionHere.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -52,7 +52,7 @@ Now lets go to this newly created draw event and update the **description** and 
 
 ![Type comments in obj_data_types_controller object](images/AddDescriptionToDataTypes.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -62,7 +62,7 @@ In **obj_data_types_controller** *press* the <kbd>Variable Definitions</kbd> but
 
 ![Add two new variables to this object called age and line_height](images/TwoFirstVariablesInDataTypes.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -70,7 +70,7 @@ Drag an instance of **obj_data_types_controller** to the edge of the new **rm_da
 
 ![Drag a copy of obj_data_types_controller to the room](images/AddLevelControllerOffScreen.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -78,7 +78,7 @@ Go to the **obj_data_types_controller | Draw** event script window.  Start by *a
 
 ![dd script to print age on screen](images/DrawFirstLineScript.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -86,7 +86,7 @@ Make sure that in **Room Order** that  **rm_data_types** on top. This way it wil
 
 ![Run game and see age printed on top of game screen](images/ReorderRoom.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -94,7 +94,7 @@ Now we can do other things with real numbers, we can perform mathematical operat
 
 ![Enter second line with mathematical operation](images/AddSecondLineMathOp.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -102,7 +102,7 @@ Now run the game by pressing the <kbd>Play</kbd> Button in the top menu bar to l
 
 ![Run game with two ages printed on screen](images/MathOperationsInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -111,7 +111,7 @@ Lets clean up a few things.  The spacing is a bit too big for the font that is d
 
 ![Alter line_height to 22](images/ChangeLineHeight.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -119,7 +119,7 @@ Go back to the **Draw** event script and put brackets around the multiplication.
 
 ![Add parenthesis for mathematical operations](images/OrderOfOps.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -127,7 +127,7 @@ Now run the game by pressing the <kbd>Play</kbd> Button in the top menu bar to l
 
 ![Run game with two different ages with improved line spacing](images/NewlySpacedSecondLine.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -137,7 +137,7 @@ In **GameMaker** any real number above .5 will resolve to true and any number le
 
 ![Add two new prints printing a true and false boolean](images/BooleanTrueAndFalse.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -145,7 +145,7 @@ Now run the game by pressing the <kbd>Play</kbd> Button in the top menu bar to l
 
 ![Run game with two more boolean messages](images/BooleanExpressionInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -155,7 +155,7 @@ Lets add a fifth line to the printing and concatonate some strings.  Lets *add* 
 
 ![Add two variables first_name and last_name](images/AddLastAndFirstName.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -163,7 +163,7 @@ Now lets string a sentence together.  We can *concatonate* string varialbes with
 
 ![Concatonate multiple strings](images/StringConcatonation.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -171,7 +171,7 @@ Now run the game by pressing the <kbd>Play</kbd> Button in the top menu bar to l
 
 ![Run game and see concatonated sentence](images/StringConcatonationInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -179,7 +179,7 @@ So a real number + a real number will perform an addition.  A string + a string 
 
 ![Add a real and string together](images/ConcatonateStringAndReal.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -187,7 +187,7 @@ Now run the game by pressing the <kbd>Play</kbd> Button in the top menu bar to l
 
 ![Run game and get a runtime error](images/RunTimeConcatonationError.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -195,7 +195,7 @@ Just as we cast a real number to a boolean we can cast a **Real Number** to a **
 
 ![Cast real to string](images/CastRealToString.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 23.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -203,7 +203,7 @@ Now run the game by pressing the <kbd>Play</kbd> Button in the top menu bar to l
 
 ![Run game and see concatonated casted string and real number](images/StringCastConcatonationInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 24.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -217,7 +217,7 @@ draw_text(room_width * .5, line_height * 2, "In 40 years I will be " + string(ag
 ![Mathematical problem within a cast](images/ConcatonateAndDoMath.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 25.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: 
 
@@ -225,7 +225,7 @@ Now run the game by pressing the <kbd>Play</kbd> Button in the top menu bar to l
 
 ![Run game it still performs cast on the result of a mathematical problem](images/DoMathAndConcatonateInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 26.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
@@ -238,7 +238,7 @@ Even cooler is that we can nest casts.  So we can cast the (bool)real_number to 
 
 ![Double cast and stringefy a bool in a nester structure](images/DoubleCast.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 27.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -246,7 +246,7 @@ Now run the game by pressing the <kbd>Play</kbd> Button in the top menu bar to l
 
 ![Run game and see a double cast concatonation](images/DoubleCastInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 28.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -260,9 +260,9 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 
 ___
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up Variables"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
