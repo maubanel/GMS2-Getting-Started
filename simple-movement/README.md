@@ -2,7 +2,7 @@
 
 ### Simple Movement
 
-<sub>[previous](../npc-movement/README.md#user-content-npc-movement) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
+<sub>[previous](../npc-movement/README.md#user-content-npc-movement) • [home](../README.md#user-content-gamemaker-studio-2-getting-started)</sub>
 
 ![](../images/line3.png)
 
@@ -185,5 +185,5 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 
 ![](../images/line.png)
 
-| [previous](../npc-movement/README.md#user-content-npc-movement)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
-|---|---|---|
+| [previous](../npc-movement/README.md#user-content-npc-movement)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) |
+|---|---|

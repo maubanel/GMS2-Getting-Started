@@ -2,7 +2,7 @@
 
 ### Errors
 
-<sub>[previous](../positioning-text-3/README.md#user-content-screen-positioning-iii) • [home](../README.md#user-content-gamemaker-studio-2-getting-started)</sub>
+<sub>[previous](../positioning-text-3/README.md#user-content-screen-positioning-iii) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../npc-movement/README.md#user-content-npc-movement)</sub>
 
 ![](../images/line3.png)
 
@@ -255,5 +255,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../positioning-text-3/README.md#user-content-screen-positioning-iii)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | 
+| [previous](../positioning-text-3/README.md#user-content-screen-positioning-iii)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../npc-movement/README.md#user-content-npc-movement)|
 |---|---|
