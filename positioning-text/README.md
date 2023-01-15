@@ -169,16 +169,6 @@ This does not affect the alignment for this one object.  The draw event is globa
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
-
-Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
-
-![save, quit, commit and push to github](images/GitHub.png)
-
-| `gms2.positioning-text`\|`THE END`| 
-| :--- |
-| **That's All Folks!** That's it for this snippet. |
-
 ___
 
 
