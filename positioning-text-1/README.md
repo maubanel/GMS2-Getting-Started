@@ -2,7 +2,7 @@
 
 ### Screen Positioning I
 
-<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
+<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../positioning-text-2/README.md#user-content-screen-positioning-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -202,6 +202,6 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
+| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../positioning-text-2/README.md#user-content-screen-positioning-ii)|
 |---|---|---|
 

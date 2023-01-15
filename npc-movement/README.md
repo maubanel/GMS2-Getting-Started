@@ -2,7 +2,7 @@
 
 ### NPC Movement
 
-<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
+<sub>[previous](../errors/README.md#user-content-errors) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../simple-movement/README.md#user-content-simple-movement)</sub>
 
 ![](../images/line3.png)
 
@@ -168,5 +168,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
+| [previous](../errors/README.md#user-content-errors)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../simple-movement/README.md#user-content-simple-movement)|
 |---|---|---|

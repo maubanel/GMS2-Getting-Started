@@ -2,7 +2,7 @@
 
 ### Errors
 
-<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
+<sub>[previous](../positioning-text-3/README.md#user-content-screen-positioning-iii) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
 
 ![](../images/line3.png)
 
@@ -255,5 +255,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
+| [previous](../positioning-text-3/README.md#user-content-screen-positioning-iii)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
 |---|---|---|
