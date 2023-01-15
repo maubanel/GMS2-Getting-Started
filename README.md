@@ -35,8 +35,8 @@ Includes:
 <kbd></kbd> &nbsp;&nbsp; [Screen Positioning II](positioning-text-2/README.md#user-content-screen-positioning-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Screen Positioning III](positioning-text-3/README.md#user-content-screen-positioning-iii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Errors](errors/README.md#user-content-errors) <br>
-<kbd></kbd> &nbsp;&nbsp; [NPC Movement](npc-movement/README.md#user-content-simple-movement) <br>
-<kbd></kbd> &nbsp;&nbsp; [Simple Movement in 8 Directions](simple-movement/README.md#user-content-simple-movement) <br>
+<kbd></kbd> &nbsp;&nbsp; [NPC Movement](npc-movement/README.md#user-content-npc-movement) <br>
+<kbd></kbd> &nbsp;&nbsp; [Simple Movement](simple-movement/README.md#user-content-simple-movement) <br>
 
 <!-- LICENSE -->
 ## License
