@@ -20,7 +20,7 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-If this is the first time you have run the game you may have to install the run-time component. Feel free to select **Required Only**.
+If this is the first time you have run the game you may have to install the Runtime Modules. Feel free to select **Required Only**.
 
 ![install runtime components if necesary](images/FirstRun.png)
 
