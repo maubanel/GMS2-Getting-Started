@@ -24,7 +24,7 @@ All projects in **GameMaker Studio 2** start with a room called **room0**. A roo
 
 ![alt_text](images/OpenDefaultRoom.gif)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -32,7 +32,7 @@ Now we should rename the room to something more appropriate.  It is a good idea 
 
 ![rename room to rm_hello_world](images/RenameRoom.gif)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -40,7 +40,7 @@ Go to the **Resources** menu on the right and *right click* on the **Object** he
 
 ![create a new object called obj_hello_world_text](images/CreateHWObject.gif)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -52,7 +52,7 @@ In this case we do not have any art to attach to the sprite so we will need to d
 
 ![add draw event to game object](images/AddDrawEvent.gif)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
@@ -71,7 +71,7 @@ I added:
 
 ![add code comments](images/CommentsOnDrawEvent.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
@@ -91,7 +91,7 @@ We will use the **x** and **y**  position of the object in the room.  There are 
 
 ![add draw_text code to game](images/DrawHelloWorldHardCoded.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -99,7 +99,7 @@ The above should draw the text "Hello World" (without quotation marks) in the ro
 
 ![add obj_hello_world_text to room](images/PlaceHelloWorldObjectInRoom.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -107,7 +107,7 @@ I eyeballed the center of the room.  What if I want it to be in the exact center
 
 ![center object in room](images/CenterOfRoom.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -115,7 +115,7 @@ Now we are ready to run the game for the first time.  I know this is not impress
 
 ![Game Running Hello World](images/HelloWorldGame.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
@@ -123,7 +123,7 @@ Notice that the text is left justified.  It starts writing from the center going
 
 ![Showing center of room in running hello world](images/HelloWorldGameOffCenter.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -131,7 +131,7 @@ What if we wanted to center the text on the screen?  We can call another functio
 
 ![Type draw_set_halign in draw event auto-complete](images/AutoCompleteDrawSetHalign.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -142,7 +142,7 @@ Now in the parenthesis start to type the parameter `fa_center` and then auto-com
 
 ![selecting fa_center enum to pass to draw_set_halign](images/FaCenterTextHAlign.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -151,7 +151,7 @@ Add a comment to explain what this does on top of the function (your comment doe
 
 ![Add another comment to what you just typed](images/CenterHalign.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -159,7 +159,7 @@ This does not affect the alignment for this one object.  The draw event is globa
 
 ![reset alignment at end to left](images/ReturnToFALeft.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -167,7 +167,7 @@ This does not affect the alignment for this one object.  The draw event is globa
 
 ![Game runs hellow world with proper centering](images/HelloWorldInGameCenter.png)
 
-<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
