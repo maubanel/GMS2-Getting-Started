@@ -28,7 +28,7 @@ Includes:
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
 <kbd></kbd> &nbsp;&nbsp; [Positioning Text](positioning-text/README.md#user-content-gms2-positioning-text) <br>
 <kbd></kbd> &nbsp;&nbsp; [Data Types](https://github.com/maubanel/GMS2-Data-Types/blob/main/README.md#user-content-gms2-data-types) <br>
-<kbd></kbd> &nbsp;&nbsp; [Variables](https://github.com/maubanel/GMS2-Variables#user-content-gms2-variables) <br>
+<kbd></kbd> &nbsp;&nbsp; [Variables](variables/README.md#user-content-gms2-variables) <br>
 <kbd></kbd> &nbsp;&nbsp; [If Statements](https://github.com/maubanel/GMS2-If-Statements#user-content-gms2-if-statements) <br>
 <kbd></kbd> &nbsp;&nbsp; [Loops](https://github.com/maubanel/GMS2-Loops#user-content-gms2-loops) <br>
 <kbd></kbd> &nbsp;&nbsp; [Screen Positioning](https://github.com/maubanel/GMS2-Screen-Positioning#user-content-gms2-screen-positioning) <br>

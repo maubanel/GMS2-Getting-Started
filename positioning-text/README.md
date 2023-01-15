@@ -1,8 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### GMS2 Positioning Text
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+<sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../positioning-text/README.md#user-content-gms2-positioning-text)</sub>
+
+![](../images/line3.png)
 
 This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. This walk through looks at how to add text to a 2-D game level and position it in the dead center on screen.
 
@@ -13,7 +15,6 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 
 ---
 
-
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
 In GameMaker all of our resources are stored in the **Resources** menu.  By default it is in the right hand side of the screen (although you can change its location as these tabs can be redocked).  Each of these sections have a small triangle that can be expanded or minimized to show the assets of that class.  All of our art, audio, scripting and other elements will be stored here in the appropriate folder.  
@@ -23,7 +24,7 @@ All projects in **GameMaker Studio 2** start with a room called **room0**. A roo
 
 ![alt_text](images/OpenDefaultRoom.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -31,7 +32,7 @@ Now we should rename the room to something more appropriate.  It is a good idea 
 
 ![rename room to rm_hello_world](images/RenameRoom.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -39,7 +40,7 @@ Go to the **Resources** menu on the right and *right click* on the **Object** he
 
 ![create a new object called obj_hello_world_text](images/CreateHWObject.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -51,7 +52,7 @@ In this case we do not have any art to attach to the sprite so we will need to d
 
 ![add draw event to game object](images/AddDrawEvent.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
@@ -70,7 +71,7 @@ I added:
 
 ![add code comments](images/CommentsOnDrawEvent.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
@@ -90,7 +91,7 @@ We will use the **x** and **y**  position of the object in the room.  There are 
 
 ![add draw_text code to game](images/DrawHelloWorldHardCoded.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -98,7 +99,7 @@ The above should draw the text "Hello World" (without quotation marks) in the ro
 
 ![add obj_hello_world_text to room](images/PlaceHelloWorldObjectInRoom.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -106,7 +107,7 @@ I eyeballed the center of the room.  What if I want it to be in the exact center
 
 ![center object in room](images/CenterOfRoom.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -114,7 +115,7 @@ Now we are ready to run the game for the first time.  I know this is not impress
 
 ![Game Running Hello World](images/HelloWorldGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
@@ -122,7 +123,7 @@ Notice that the text is left justified.  It starts writing from the center going
 
 ![Showing center of room in running hello world](images/HelloWorldGameOffCenter.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -130,7 +131,7 @@ What if we wanted to center the text on the screen?  We can call another functio
 
 ![Type draw_set_halign in draw event auto-complete](images/AutoCompleteDrawSetHalign.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -141,7 +142,7 @@ Now in the parenthesis start to type the parameter `fa_center` and then auto-com
 
 ![selecting fa_center enum to pass to draw_set_halign](images/FaCenterTextHAlign.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -150,7 +151,7 @@ Add a comment to explain what this does on top of the function (your comment doe
 
 ![Add another comment to what you just typed](images/CenterHalign.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -158,7 +159,7 @@ This does not affect the alignment for this one object.  The draw event is globa
 
 ![reset alignment at end to left](images/ReturnToFALeft.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -166,7 +167,7 @@ This does not affect the alignment for this one object.  The draw event is globa
 
 ![Game runs hellow world with proper centering](images/HelloWorldInGameCenter.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+<img src="![](../images/line2.png)" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
@@ -181,9 +182,12 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
+
+| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../collision/README.md#user-content-collision-events)|
+|---|---|---|
 
