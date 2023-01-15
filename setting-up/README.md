@@ -52,7 +52,7 @@ This will take you to an empty project window in the main game editor.
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Now the folder that holds the project is named with the same name as the project in the folder you selected prior to this step.
+Now the folder that holds the project is named with the same name as the project in the folder you selected prior to this step. Never edit the content of this folder.  Only add and delete files from the game interface.  You run the risk of permanently damaging your project and having to start over again.
 
 ![folder with project name](images/FolderWithProjectName.png)
 
