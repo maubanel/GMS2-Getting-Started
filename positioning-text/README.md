@@ -47,6 +47,11 @@ Now we have a game object.  Normally we would attach an animation to it to play 
 
 In this case we do not have any art to attach to the sprite so we will need to draw a font on screen through a script.  This is done through a **Draw** object event.  All the draw events are a type that run **every** step.  There are different types of draw events but the two we will care about now are **Draw** and **Draw GUI**.  **Draw GUI** will draw to the screen space and will be in the same portion of the camera regardless of where the camera is located in the level.  With a regular **Draw** event the draw will be relative to the room and will not move with the camera.  Since we want to place this text in the level we will use a draw event. *Double click* `obj_hello_world_text` to center it in our workspace. *Left click* on the **Add Event** button in the **Events** tab of the game object and select **Draw | Draw**. This will bring out a scripting window that will allow us to add some game logic to this event type.
 
+You might get a pop up like so.  Select **GML Code** and .
+
+![add draw event to game object](images/gmlCodeOK.png)
+
+
 ![add draw event to game object](images/AddDrawEvent.gif)
 
 ![](../images/line2.png)
