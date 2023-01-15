@@ -95,15 +95,11 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 
 ![save, quit, commit and push to github](images/GitHub.png)
 
-| `gms2.variables`\|`THE END`| 
-| :--- |
-| **That's All Folks!** That's it for variables. |
-
-___
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up If Statements"> -->
+![Next Up If Statements](images/banner.png)
 
 ![](../images/line.png)
 

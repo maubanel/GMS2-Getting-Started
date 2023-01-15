@@ -171,12 +171,17 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
 ![save, quit, commit and push to github](images/GitHub.png)
-___
+
+
+| `gms2.variables`\|`THE END`| 
+| :--- |
+| **That's All Folks!** That's it for variables. |
 
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Add Animation in 8 Directions">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!"> -->
+![The End"](images/banner.png)
 
 ![](../images/line.png)
 
