@@ -66,3 +66,15 @@ The **GameMaker** folder will contain a `.yyp` file which is the project file.  
 ![show contents of gamemaker directory](images/DoNotAlter.png)
 
 ![](../images/line2.png)
+
+___
+
+![](../images/line.png)
+
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=You are Set Up!"> -->
+![you are set up](images/banner.png)
+
+![](../images/line.png)
+
+| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../positioning-text/README.md#user-content-gms2-positioning-tex)|
+|---|---|
