@@ -2,6 +2,8 @@
 
 ### GMS2 Data Types
 
+<sub>[previous](../spositioning-text/README.md#user-content-gms2-positioning-text) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../variables/README.md#user-content-gms2-variables)</sub>
+
 ![](../images/line3.png)
 
 This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. This walk through looks at [data types](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Data_Types.htm) in GMS2. Lets looks at the most common built in data types that **GameMaker GML** provides us.  A data type indicates what kind of information a variable holds and how to allocate memory to store it.
@@ -263,6 +265,9 @@ ___
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up Variables"> -->
+![Next Up Variables"](images/banner.png)
 
 ![](../images/line.png)
 
+| [previous](../positioning-text/README.md#user-content-gms2-positioning-text)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../variables/README.md#user-content-gms2-variables)|
+|---|---|---|
