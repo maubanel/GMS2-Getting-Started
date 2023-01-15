@@ -2,7 +2,7 @@
 
 ### GMS2 Positioning Text
 
-<sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../positioning-text/README.md#user-content-gms2-positioning-text)</sub>
+<sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gamemaker-studio-2-getting-started) • [next](../data-types/README.md#user-content-gms2-data-types)</sub>
 
 ![](../images/line3.png)
 
@@ -184,10 +184,11 @@ ___
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up Data Types"> -->
+![Next Up Data Types](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../collision/README.md#user-content-collision-events)|
+| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gamemaker-studio-2-getting-started) | [next](../data-types/README.md#user-content-gms2-data-types)|
 |---|---|---|
 
