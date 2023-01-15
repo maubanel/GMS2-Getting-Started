@@ -65,13 +65,8 @@ The **GameMaker** folder will contain a `.yyp` file which is the project file.  
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. Open up **GitHub Desktop** and select the project you are working on.  Add a **Commit Title** and **Description**.  Press the <kbd>Commit to main</kbd> button.  Then press the <kbd>Publish branch</kbd> (very first commit) or <kbd>Push branch</kbd> (every subsequent push) to upload all changes to the server.
-
-![save, quit, commit and push to github](images/GitHub.png)
-
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 8.`\|`FHIU`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Click on the **[GitHub Classroom Link](https://classroom.github.com/a/fDx3oNlD)** if you want a repository to use for the game. Press the <kbd>Accept this assignment</kbd> button. 
 
