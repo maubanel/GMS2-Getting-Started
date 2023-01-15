@@ -8,9 +8,6 @@
 
 This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. This walk through looks at [data types](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Data_Types.htm) in GMS2. Lets looks at the most common built in data types that **GameMaker GML** provides us.  A data type indicates what kind of information a variable holds and how to allocate memory to store it.
 
-* Tested on GameMake Studio2.3.5.589
-* An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
-
 <br>
 
 ---
