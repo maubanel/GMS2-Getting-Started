@@ -203,15 +203,6 @@ Select the **File | Save Project** with the latest changes.
 
 ![save, quit, commit and push to github](images/Save.png)
 
-___
-
-
-
-| `gms2.screen.positioning`\|`THE END`| 
-| :--- |
-| **That's All Folks!** That's it for screen positioning. |
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up Errors"> -->
