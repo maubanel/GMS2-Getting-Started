@@ -115,8 +115,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`GMGS`| :large_blue_diamo
-nd: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now lets get the circle positioned properly.  Add a **Variable Definition** to `obj_circle` called `line_height` and set it to `22` with a **Type** of `Real`.
 
