@@ -59,7 +59,7 @@ We will also align text to center then reset the alignment.
 //Show result of if statement on sixth line<br>
 if (true)
 {
-    draw_text(room_width * .5, line_height * 6, "The if statement is true" );
+    draw_text(room_width * .5, line_height * 2, "The if statement is true" );
 }
 ```
 
