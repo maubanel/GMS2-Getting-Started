@@ -94,7 +94,7 @@ Now what is nice about having a range of -1 to 1 is that we can scale it by mult
 
 > vspeed is one of the "built in" properties that all instances have and defines the vertical movement speed (along the y-axis) of the instance in pixels per step. So, a vspeed of 3 means 3 pixels of movement to the bottom (+y) every step, and a vspeed of -3 would mean 3 pixels of movement to the top (-y) every step.
 
-Delete the two `show_debug_message(string)` functions and add to both the `hspeed` and `vspeed` to the object.  Now that will mean when pressing right it will multiply 1 * 2.5 and if you press left it will multiple -1 * 2.5.  So right moves 2.5 pixels per frame and left moves -2.5 pixels per frame.  Same for up and down where up will move -5 pixels up per frame and down will move 2.5 pixels down per frame.
+Delete the two `show_debug_message(string)` functions and add to both the `hspeed` and `vspeed` to the object.  Now that will mean when pressing right it will multiply 1 * 5 and if you press left it will multiple -1 * 5.  So right moves 5 pixels per frame and left moves -5 pixels per frame.  Same for up and down where up will move -5 pixels up per frame and down will move 5 pixels down per frame.
 
 ![add movement to script by using hspeed and vspeed with the input axis](images/AddMovementToScript.png)
 
