@@ -179,7 +179,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. S
 
 ##### `Step 14.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Lets add a eigth line that checks the return value of a function.  Remember that functions can return a variable, some return booleans and are usually used inside if conditional statements.  One of these in GameMaker is **[keyboard_check(key)](https://manual.yoyogames.com/index.htm#t=GameMaker_Language%2FGML_Reference%2FGame_Input%2FKeyboard_Input%2Fkeyboard_check.htm)**. You do not know what the return value of the function without looking in the manual.  This can be done by typing the function name into the help index tab or clicking the above link.  Look at the return value.
+Lets add a third line that checks the return value of a function.  Remember that functions can return a variable, some return booleans and are usually used inside if conditional statements.  One of these in GameMaker is **[keyboard_check(key)](https://manual.yoyogames.com/index.htm#t=GameMaker_Language%2FGML_Reference%2FGame_Input%2FKeyboard_Input%2Fkeyboard_check.htm)**. You do not know what the return value of the function without looking in the manual.  This can be done by typing the function name into the help index tab or clicking the above link.  Look at the return value.
 
 Note: If you see **NA** this means the function returns no value, and is definitely not usable insinde an if statement.
 
