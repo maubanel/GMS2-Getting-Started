@@ -49,7 +49,7 @@ Lets add the script that we used for [GMS2 Positioning Text](https://github.com/
 
 ##### `Step 5.`\|`GMGS`| :small_orange_diamond:
 
-Move the `rm_variables1` to the top in the **Room Order** lis.
+Move the `rm_variables1` to the top in the **Room Order** list.
 
 ![move room to top](images/changeRoomOrder.png)
 
@@ -95,9 +95,9 @@ Now you can also have multiple copies of a single object in the Room/Level.  Eac
 
 ##### `Step 10.`\|`GMGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+Select the **File | Save Project** to save your work.
 
-![save, quit, commit and push to github](images/GitHub.png)
+![save, quit, commit and push to github](images/Save.png)
 
 
 ![](../images/line.png)
