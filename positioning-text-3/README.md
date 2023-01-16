@@ -118,7 +118,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 ##### `Step 13.`\|`GMGS`| :large_blue_diamo
 nd: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets get the circle positioned properly.  Add a **Variable Definition** to `obj_circle` called `line_height` and set it to `22` with a **Type** of `Integer`.
+Now lets get the circle positioned properly.  Add a **Variable Definition** to `obj_circle` called `line_height` and set it to `22` with a **Type** of `Real`.
 
 ![Add a line_height variable set to 22 to obj_circle](images/AddLineHeightToCircle.png)
 
