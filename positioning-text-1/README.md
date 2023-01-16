@@ -188,7 +188,7 @@ The triangle sprite should look like this:
 
 ##### `Step 21.`\|`GMGS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-We want to create another sprite, this time a blue square.  *Right click* the right mouse button on the **s** title in the **Asset Browser** tab and select **Create | Sprite**. *Change* the name to `spr_square`.  Once you have seen this screen press the <kbd>Edit Sprite</kbd> button to create the actual artwork. *Press* the left mouse button on the blue color in the palette to pick the fill color that we want.  Select the the **Fill Tool** and click within the window to fill the entire sprite with blue.
+We want to create another sprite, this time a blue square.  *Right click* the right mouse button on the **Sprites** title in the **Asset Browser** tab and select **Create | Sprite**. *Change* the name to `spr_square`.  Once you have seen this screen press the <kbd>Edit Sprite</kbd> button to create the actual artwork. *Press* the left mouse button on the blue color in the palette to pick the fill color that we want.  Select the the **Fill Tool** and click within the window to fill the entire sprite with blue.
 
 ![Create blue square sprite spr_blue](images/CreateTSquareSprite.gif)
 
