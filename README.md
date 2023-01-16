@@ -19,9 +19,7 @@ Includes:
 
 ## Software Needed
 
-* Tested on GameMake Studio2.3.5.589
-* [GitHub Account](https://github.com) (free)
-* [GitHub Desktop](https://desktop.github.com)
+* Tested on GameMake Studio2022.11.175
 
 ## Table of Contents
 
