@@ -49,6 +49,10 @@ Lets add the script that we used for [GMS2 Positioning Text](https://github.com/
 
 ##### `Step 5.`\|`GMGS`| :small_orange_diamond:
 
+Move the `rm_variables1` to the top in the **Room Order** lis.
+
+![move room to top](images/changeRoomOrder.png)
+
 Open up **rm_variable1** and change the **Properties | Width** to `1024`.  Drag a copy of **obj_variables** to the middle of the room. Double click the icon in the room and change the **X** to `512` and the **Y** to `384`.  *Run* the game and you should see hello world printed and centered. 
 
 ![add obj_variables to room and center text run and test](images/HelloWorldInRoom.gif)
