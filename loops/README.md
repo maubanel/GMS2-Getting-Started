@@ -25,7 +25,7 @@ Create a new room by *left clicking* on **Rooms** arrow in the **Asset Browser**
 
 ##### `Step 2.`\|`GMGS`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on **Objects** in the **Asset Browser** and select **Create | Object**.  Call this object `obj_loop`.  Press the **Events | Add Events | Draw | Draw** to add a draw event. Add a variable called `line_height` and leave it as a real number and set the default to `22`.
+Right click on **Objects** in the **Asset Browser** and select **Create | Object**.  Call this object `obj_loop`.  Press the **Events | Add Events | Draw | Draw** to add a draw event. Add a **Variable Definition** and createa a new **Variable** called `line_height` and leave it as a real number and set the default to `22`.
 
 ![create new object called obj_loop and add draw event](images/addLoopObj.gif)
 

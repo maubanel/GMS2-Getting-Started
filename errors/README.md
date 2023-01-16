@@ -171,7 +171,7 @@ Fix the error and run the game with the green font shown.
 
 ##### `Step 19.`\|`GMGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The next step is to call an existing script with errors in it.  Create a new font by clicking on **Font** and select **Create | Font** and call it `fnt_text`.  Letave the default settings.
+The next step is to call an existing script with errors in it.  Create a new font by clicking on **Font** and select **Create | Font** and call it `fnt_text`.  Leave the default settings.
 
 ![create new font called fnt_text with default settings](images/FontText.png)
 
@@ -210,7 +210,10 @@ function Errors()
 	}
 	
 	// Change to green font
-	draw_set_halign(c_green);
+	draw_set_color(c_green);
+
+	// Center alignment of text
+	draw_set_halign(fa_center);
 	
 	// Print on next line
 	draw_text(room_width * .5, 172, "You have debugged me!");
