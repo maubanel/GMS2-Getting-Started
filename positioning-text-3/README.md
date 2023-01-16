@@ -100,7 +100,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 11.`\|`GMGS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now lets go back and fix the origin on the square so it is positioned in the center and rotates in the middle of the sprite.  Open spr_square and click on the drop down menu that says Top Left.  Select Middle Center instead.  Look at the target reticule update automatically:
+Now lets go back and fix the origin on the square so it is positioned in the center and rotates in the middle of the sprite.  Open spr_square and click on the drop down menu that says Top Left.  Change the **Origin** to ** Middle Center** instead.  Look at the target reticule update automatically:
 
 ![Adjust origin of obj_square to middle center](images/CenterOriginOnSquare.gif)
 
